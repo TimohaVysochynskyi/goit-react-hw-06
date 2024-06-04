@@ -1,0 +1,22 @@
+.row {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.row:first-child {
+    margin-top: 0;
+}
+
+.icon {
+    margin-right: 6px;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 8px 12px;
+    background-color: rgb(24, 24, 24, 0.95);
+    color: #efefef;
+    border: 2px solid #181818;
+    border-radius: 6px;
+}

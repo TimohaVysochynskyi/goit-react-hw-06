@@ -1,0 +1,36 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2px 0;
+}
+
+.group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px 0;
+    height: 85px;
+}
+
+.input,
+.btn {
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #181818;
+    padding: 8px;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: #181818;
+    font-weight: 500;
+    color: #efefef;
+    text-transform: uppercase;
+    letter-spacing: .6px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
