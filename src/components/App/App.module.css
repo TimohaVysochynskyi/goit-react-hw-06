@@ -6,3 +6,9 @@
     flex-direction: column;
     gap: 20px 0;
 }
+
+@media screen and (max-width: 425px) {
+    .container {
+        width: 95vw;
+    }
+}
